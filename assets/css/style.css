@@ -53,7 +53,6 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	cursor: url('../img/X_64.ico'), default;
 }
 .area1, .area2{
 	width: 148px;

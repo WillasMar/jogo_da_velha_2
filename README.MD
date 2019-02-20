@@ -32,12 +32,23 @@ jogo_da_velha_2
 
 <h2>Funcionamento</h2>
 
-<b>1 -</b> Na div 'cabecalho' irá ficar as informações em relação ao jogo, quem é a vez de jogar, o vencedor', recomeçar o jogo, etc.
+<b>1 -</b> Na div '.cabecalho' irá ficar as informações em relação ao jogo, quem é a vez de jogar, o vencedor', recomeçar o jogo, etc.
 <br>
 
-<b>2 -</b> Na div 'area' irá ficar o jogo, onde que, terá nove areas para ser escolhida, sendo que cada area poderá ser marcada com 'X' ou 'O', respectivamente e alternativamente.
+<b>2 -</b> Na div '.area' irá ficar o jogo, onde que, terá nove areas para ser escolhida, sendo que cada area poderá ser marcada com 'X' ou 'O', respectivamente e alternativamente.
 <br>
 
 <b>3 -</b> O jogo acaba quando uma sequência igual, combinada com um padrão de três opções, na vertical, diagonal ou horizontal for atendida.
+<br>
 
+<h2>Alterações no Projeto</h2>
+
+<p>
+	Foi criado a função para as areas do jogo que irá mudar a seta do mouse de acordo com quem é a vez de jogar.
+</p>
+
+<b>script.js - </b>criado função de mouseMove para a div '.areaInt'. Ele irá alterar o cursor para 'X' ou 'O' dependendo de quem for a vez de jogar.
+<br>
+
+<b>style.js - </b>removido a propriedade cursor da div '.areaInt'. Ele será tratado pelo JQuery.
 <br>
