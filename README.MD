@@ -52,3 +52,10 @@ jogo_da_velha_2
 
 <b>style.js - </b>removido a propriedade cursor da div '.areaInt'. Ele será tratado pelo JQuery.
 <br>
+
+<p>
+	Foi criado a função para as areas do jogo que ao clicar irá marcar a área com 'O' ou 'X' de acordo de quem for a vez.
+</p>
+
+<b>script.js - </b>criado evento de click para a div '.areaInt'. Ele irá alterar o html inserindo uma tag img com as imagens 'X.png' ou 'O.png' dependendo de quem for a vez de jogar. Logo em seguida altera o cursor do mouse, chama a função de atualizarVez e verificarGanhador.
+<br>
