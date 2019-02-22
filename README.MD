@@ -59,3 +59,13 @@ jogo_da_velha_2
 
 <b>script.js - </b>criado evento de click para a div '.areaInt'. Ele irá alterar o html inserindo uma tag img com as imagens 'X.png' ou 'O.png' dependendo de quem for a vez de jogar. Logo em seguida altera o cursor do mouse, chama a função de atualizarVez e verificarGanhador.
 <br>
+
+<p>
+	Criado a função para verificar o ganhador. Implementado evento de click na div 'jogar'.
+</p>
+
+<b>script.js - </b>implementado função 'verificarGanhador()'. Implementado evento de click na div 'jogar'.
+<br>
+
+<b>index.html - </b>alterado div '.areaInt' para se adequar as alterações em script.js.
+<br>
