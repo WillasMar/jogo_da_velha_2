@@ -69,3 +69,12 @@ jogo_da_velha_2
 
 <b>index.html - </b>alterado div '.areaInt' para se adequar as alterações em script.js.
 <br>
+
+<p>
+	Criado animação na div que mostra o vencedor. 
+</p>
+<b>script.js - </b>implementado animação na div '.cab2' e '.cab2 .descricao'. Alterado o evento de clique do botão '#jogar' para atender as alterações nessas duas div's.
+<br>
+
+<b>index.html - </b>alterado div '.ca2' e '.cab2 .descricao' aumentando o fonte e acrescetando um fundo e uma sombra.
+<br>

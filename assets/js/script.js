@@ -72,6 +72,20 @@ $(function(){
 			$('.cab1').css('display','none');
 			$('.cab2').css('display','flex');
 			$('.cab3').css('display','flex');
+			
+			/* após um tempo de espera, o nome vencedor vai diminuindo,
+			e ao concluir é retirado o fundo e a sombra */
+			setTimeout(function(){
+				$('.cab2').animate({
+					'font-size':'20px'
+				},{
+					duration:4000,
+					complete:function(){
+						$('.cab2 .descricao').css('box-shadow','0px 0px 0px 0px');
+						$('.cab2 .descricao').css('background','none');
+					}				
+				});
+			},2000);			
 
 			$('.areaInt').css('cursor','auto');
 			$('.areaInt').attr('data-op','');
@@ -143,10 +157,12 @@ $(function(){
 
 		$('.cab1').css('display','flex');
 		$('.cab2').css('display','none');
+		$('.cab2').css('font-size','50px');
+		$('.cab2 .descricao').css('background','#87CEFA');
+		$('.cab2 .descricao').css('box-shadow','0px 0px 30px 10px #87CEFA');
 		$('.cab3').css('display','none');
 
 		$('.areaInt').html('');
 		$('.areaInt').removeClass('padrao');
-
 	});
 });

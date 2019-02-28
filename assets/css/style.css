@@ -26,6 +26,11 @@ body{
 }
 .cab2{
 	display: none;
+	font-size: 50px;
+}
+.cab2 .descricao{
+	background-color: #87CEFA;
+	box-shadow: 0px 0px 30px 10px #87CEFA;
 }
 .cab3{
 	display: none;
